@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Shabnam79_go_pipeline_sample_1709190236022-push-trigger-input-set
+  identifier: Build_Shabnam79_go_pipeline_sample_1709190236022pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Shabnam79_go_pipeline_sample_1709190236022
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
